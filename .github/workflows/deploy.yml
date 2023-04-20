@@ -44,6 +44,7 @@ jobs:
               . ~/.nvm/nvm.sh
 
                nvm install node
+               npm install
                npm install -g pm2
                cd ~/CC
                git pull origin main
