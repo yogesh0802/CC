@@ -43,7 +43,7 @@ jobs:
               curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
               . ~/.nvm/nvm.sh
 
-               nvm install 14
+               nvm install node
                npm install -g pm2
                cd ~/CC
                git pull origin main
